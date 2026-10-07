@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Web Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Archivo+Black&family=Bebas+Neue&family=Black+Ops+One&family=Caacupe+One&family=Changa+One:ital@0;1&family=Croissant+One&family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Petit+Formal+Script&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--navbar-->
+    <div class="blur-bg" id="blur-bg"></div>
+    <header>
+        <a href="#">
+            <img src="img/a-logo.png" alt="">
+        </a>
+        <div class="nav-bar">
+            <ul>
+            <a  href="#">Home</a><li></li>
+            <a  href="#">About</a><li></li>
+            <a  href="#">Services</a><li></li>
+            <a  href="#">Portfolio</a><li></li>
+            <a  href="#">Testimonial</a><li></li>
+            <a  href="#">Contact</a><li></li>
+            
+             
+        </ul>
+        </div>
+        <div class="nav-link">
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=ayesharanasingha1213@gmail.com" target="_blank">Let's Talk  </a>
+        </div>
+    </header>
+
+    <!--home-->
+    <section class="home-page">
+        
+       
+        <div class="home-text">
+            <h1><svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 24 24" fill="none" stroke="#E2AA3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot"><circle cx="12" cy="12" r="1"/></svg>we design. we build. we elevate</h1>
+            <h2>we build modern</h2>
+            <h3>websites that</h3>
+            <h4>grow your business</h4>
+            <p>Apex Web Studio creates premium,responsive and user-friendly<br> that help you <p2>stand out</p2> and succeed online</p>
+            <button id="our">Explore our work</button>
+            <button id="intro" onclick="intro()" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-play"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg>  Watch intro</button>
+            <h5><svg xmlns="http://www.w3.org/2000/svg" id="close" onclick="closevideo()" width="47" height="47" viewBox="0 0 24 24" fill="none" stroke="#FDFCFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></h5>
+
+            <video  autoplay muted controls class="invideo" id="invideo">
+                <source src="vid/gig video 2_1.mp4" type="video/mp4"> 
+            </video>
+
+        </div>
+         <div class="home-img">
+            <img src="img/a-home-logo2.png">
+        </div>
+    </section>
+
+    <section class="include">
+
+        <div class="in-box">
+             <div class="in-box1">
+                <img src="img/com.png">
+                <h1>Web devolpment</h1>
+                <P>Custom Websites build with clean code and modern technologies.</P>
+                <span>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+             </div>
+               <div class="in-box2">
+                <img src="img/pen.png">
+                <h1>UI/UX Design</h1>
+                <P>Beautiful,user-friendly designs that provide great experien.</P>
+                <span>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+             </div>
+               <div class="in-box3">
+                <img src="img/phone.png">
+                <h1>Responsive Design</h1>
+                <P>Websites that look perfect on all devices and screen size.</P>
+                <span>Learn more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+             </div>
+               <div class="in-box4">
+                <img src="img/roket.png">
+                <h1>Performance & SEO</h1>
+                <P>Lightning fast websites optimized for performance and SEO.</P>
+                <span>Learn more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+             </div>
+        </div>
+    </section>
+     
+    <script src="script.js"></script>
+</body>
+</html>
